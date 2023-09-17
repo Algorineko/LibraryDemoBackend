@@ -75,3 +75,4 @@ async def update_book(book_id:int,book_obj:Book):
             book.publisher=book_obj.publisher
             return {"message":f"id为{book_id}的图书已更新"}
     return {"message": f"未找到id为{book_id}的图书"}
+# 8.2--9.17
